@@ -1,0 +1,40 @@
+{
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "launch": {
+        "configurations": [],
+        "compounds": []
+    },
+    "editor.tabSize": 2,
+    "editor.fontSize": 16,
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true, 
+    "editor.formatOnPaste": true,
+    "explorer.confirmDragAndDrop": false, 
+    "mssql.connections": [
+        {
+            "server": "{{put-server-name-here}}",
+            "database": "{{put-database-name-here}}",
+            "user": "{{put-username-here}}",
+            "password": ""
+        }
+    ],
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter.notebook.ipynb"
+    },
+    "window.zoomLevel": 3,
+    "security.workspace.trust.untrustedFiles": "open",
+    "bracketPairColorizer.depreciation-notice": false,
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "java.imports.gradle.wrapper.checksums": [
+        {
+            "sha256": "3edc20a935365c9fee3bf037fdfe200a1e1b779cc62346ea13c64ff10f535887",
+            "allowed": true
+        }
+    ],
+    "explorer.confirmDelete": false
+}
