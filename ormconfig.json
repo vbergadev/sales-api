@@ -1,0 +1,14 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "docker",
+  "database": "salesapi",
+  "migrations": [
+    "./src/share/typeorm/migrations/*.ts"
+  ],
+  "cli": {
+    "migrationDir": "./src/share/typeorm/migrations"
+  }
+}
